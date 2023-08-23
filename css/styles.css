@@ -15,7 +15,7 @@
     --navybluemodal:#2E2F42;
     --grey:#2E2F42;
     --dairy:#FCFCFC;
-    
+
 }
 /* CSS RESET */
 p,
@@ -128,7 +128,6 @@ body
 {
     display: flex;
     gap: 40px;
-
 }
 
 .lists
@@ -153,7 +152,6 @@ body
     font-weight: 500;
     display: block; /*Remove This If There is Space Bellow*/
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .navlist-top-pages::after {
@@ -182,7 +180,6 @@ body
 .navbar .navlist-top-pages.currentoption
 {
     color: var(--oceancolor);
-    
 }
 
 .navlist-top-pages.currentoption::after {
@@ -273,10 +270,9 @@ body
 {
     background-color: var(--iriscolor);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    border:var(--iriscolor);
+    border: 1px solid var(--iriscolor);
     border-radius: 4px;
     color: var(--whitecolor);
-    
 }
 
 .filter.filter-active:hover,
@@ -311,9 +307,7 @@ body
 
 /*FEATURES SECTION*/
 .features-container
-{
- 
-}
+{}
 
 .features {
 
@@ -349,23 +343,17 @@ body
     color: var(--slate);
 }
 /*WHAT WE DO SECTION*/
-
-.whatwedo-container{
-
-}
+.whatwedo-container
+{}
 
 .whatwedo
 {
-
     display: flex;
     gap: 24px;
-
 }
 
 .whatwedo-list
-{
-    
-}
+{}
 /*TEAM SECTION*/
 .team-list-title 
 {
@@ -384,9 +372,8 @@ body
     color: var(--slate);
 }
 
-.team-container {
-
-}
+.team-container 
+{}
 
 .team 
 {
@@ -577,7 +564,6 @@ body
 
 .footer-container {
     display: flex;
- 
 }
 
 .logo-studio-bottom {
@@ -679,8 +665,8 @@ body
 
 .modal-close {
     position: absolute;
-    top: 8px;
-    right: 8px;
+    top: 24px;
+    right: 24px;
     padding: 0;
     display: flex;
     justify-content: center;
