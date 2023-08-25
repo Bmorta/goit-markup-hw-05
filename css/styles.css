@@ -137,7 +137,7 @@ body
 
 .link {
     text-decoration: none;
-    color: var(--navyblue-color);
+    color: var(--navyblue);
 }
 
 .navlist-top-pages {
@@ -433,7 +433,7 @@ body
 
 /* Customers section */
 .customers-title {
-    color: var(--navyblue-color);
+    color: var(--navyblue);
     display: flex;
     justify-content: center;
     align-items: center;
